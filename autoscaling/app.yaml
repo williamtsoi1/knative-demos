@@ -8,7 +8,7 @@ spec:
     spec:
       containerConcurrency: 1
       containers:
-        - image: gcr.io/cloudylabs-public/maxprime:0.2.1
+        - image: gcr.io/williamtsoi-knative-demo/maxprime:latest
           resources:
             limits:
               memory: "256Mi"

@@ -9,7 +9,7 @@ spec:
   template:
     spec:
       containers:
-        - image: gcr.io/cloudylabs-public/user:1.0.2
+        - image: gcr.io/williamtsoi-knative-demo/user:1.0.2
           env:
             - name: RELEASE
               value: "v1.0.2-demo"

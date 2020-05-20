@@ -4,7 +4,7 @@ metadata:
   name: twitter-source
 spec:
   args:
-    - --query=knative
+    - --query=nba
   env:
     - name: RELEASE
       value: "v0.1.10"
@@ -28,7 +28,7 @@ spec:
         secretKeyRef:
           key: T_ACCESS_SECRET
           name: ktweet-secrets
-  image: gcr.io/cloudylabs-public/ktweet:0.1.11
+  image: gcr.io/williamtsoi-knative-demo/ktweet:0.1.11
   sink:
     apiVersion: eventing.knative.dev/v1alpha1
     kind: Broker

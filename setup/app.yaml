@@ -7,7 +7,7 @@ spec:
   template:
     spec:
       containers:
-        - image: gcr.io/cloudylabs-public/maxprime:0.2.1
+        - image: gcr.io/williamtsoi-knative-demo/maxprime:latest
           env:
             - name: RELEASE
               value: "v0.2.1-simple"

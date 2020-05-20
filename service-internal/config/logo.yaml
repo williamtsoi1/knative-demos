@@ -9,7 +9,7 @@ spec:
   template:
     spec:
       containers:
-        - image: gcr.io/cloudylabs-public/logo:1.0.1
+        - image: gcr.io/williamtsoi-knative-demo/logo:1.0.1
           env:
             - name: RELEASE
               value: "v1.0.1"

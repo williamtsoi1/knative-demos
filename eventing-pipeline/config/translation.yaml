@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-        - image: gcr.io/cloudylabs-public/tranlator:0.3.2
+        - image: gcr.io/williamtsoi-knative-demo/tranlator:0.3.2
           env:
             # https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-object
             - name: TEXT_PATH
